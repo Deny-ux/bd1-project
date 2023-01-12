@@ -1,0 +1,14 @@
+[
+  {
+    "rating": 4,
+    "comment": "This laptop is really good, will definitely recommend it to my friends!",
+    "name": "laptop",
+    "email": "johny.browny@gmail.com"
+  },
+  {
+    "rating": 5,
+    "comment": "incredible and exciting plot.",
+    "name": "just a book",
+    "email": "Jan.kowalski@gmail.com"
+  }
+]

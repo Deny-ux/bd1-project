@@ -1,0 +1,17 @@
+[
+  {
+    "amount": 2,
+    "name": "just a book",
+    "email": "Jan.kowalski@gmail.com"
+  },
+  {
+    "amount": 1,
+    "name": "laptop",
+    "email": "johny.browny@gmail.com"
+  },
+  {
+    "amount": 1,
+    "name": "Teddy",
+    "email": "denys.foka@gmail.com"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "street": "Nowowiejska",
+    "postalCode": "00-643",
+    "city": "Warsaw",
+    "country": "Poland"
+  },
+  {
+    "street": "Miodowa",
+    "postalCode": "00-123",
+    "city": "Warsaw",
+    "country": "Poland"
+  },
+  {
+    "street": "Druzby",
+    "postalCode": "78606",
+    "city": "Ivano-Frankivsk",
+    "country": "Ukraine"
+  },
+  {
+    "street": "Oxford Street",
+    "postalCode": "23AB1",
+    "city": "London",
+    "country": "England"
+  }
+]

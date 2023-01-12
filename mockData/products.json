@@ -1,0 +1,34 @@
+[
+  {
+    "name": "laptop",
+    "description": "The best laptop in the world!",
+    "price": 1000,
+    "inventory": 3,
+    "category": "Electronics And Computers",
+    "email": "denys.foka@gmail.com"
+  },
+  {
+    "name": "just a book",
+    "description": "Just a thing with a couple of pages smeared with ink so that you can find sense in the spots called words",
+    "price": 19,
+    "inventory": 2,
+    "category": "Books",
+    "email": "denys.foka@gmail.com"
+  },
+  {
+    "name": "Teddy",
+    "description": "if you do not know what to present to your soulmate, then buy this!",
+    "price": 10,
+    "inventory": 9,
+    "category": "Toys",
+    "email": "Jan.kowalski@gmail.com"
+  },
+  {
+    "name": "Novel 'fahrenheit 451'",
+    "description": "Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. Often regarded as one of his best works, Fahrenheit 451 presents an American society where books have been personified and outlawed and 'firemen' burn any that are found. The novel follows Guy Montag, a fireman who becomes disillusioned with his role of censoring literature and destroying knowledge, eventually quitting his job and committing himself to the preservation of literary and cultural writings.",
+    "price": 11,
+    "inventory": 1,
+    "category": "Books",
+    "email": "johny.browny@gmail.com"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "eNGLAnd",
+    "capital": "London",
+    "language": "english",
+    "currency": "GBP"
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "language": "ukrainian",
+    "currency": "UAH"
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "language": "polish",
+    "currency": "pln"
+  },
+  {
+    "name": "spain",
+    "capital": "Madrid",
+    "language": "spanish",
+    "currency": "EUR"
+  }
+]

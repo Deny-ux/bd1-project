@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Denys",
+    "surname": "Foka",
+    "email": "denys.foka@gmail.com",
+    "password": "testPassword",
+    "postalCode": "78606"
+  },
+  {
+    "name": "Jan",
+    "surname": "Kowalski",
+    "email": "Jan.kowalski@gmail.com",
+    "password": "somePassword2",
+    "postalCode": "00-123"
+  },
+  {
+    "name": "John",
+    "surname": "Brown",
+    "email": "johny.browny@gmail.com",
+    "password": "gfd$#Tv5#d#@",
+    "postalCode": "23AB1"
+  }
+]
