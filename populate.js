@@ -17,7 +17,7 @@ const jsonUsers = require("./mockData/users.json");
 const jsonProducts = require("./mockData/products.json");
 const jsonBoughtProducts = require("./mockData/boughtProducts.json");
 const jsonReviews = require("./mockData/rewiews.json");
-// const jsonOrders = require("./mockData/orders.json");
+const jsonOrders = require("./mockData/orders.json");
 
 const start = async () => {
   try {
@@ -78,24 +78,25 @@ const start = async () => {
 
     const reviews = await Review.create(jsonReviews);
 
-    console.log(reviews);
+    // orders
+    connectCorrespondingIds(users, jsonOrders, "email", "buyer", "buyer");
+
+    for (const order of jsonOrders) {
+      console.log(order);
+      for (const orderItem of order.orderItems) {
+        const { _id: productId } = await Product.findOne({
+          name: orderItem.name,
+        }).select("_id");
+        orderItem.productId = productId;
+      }
+    }
+    const orders = await Order.create(jsonOrders);
+
     process.exit(0);
   } catch (error) {
     process.exit(1);
   }
 };
-
-function connectCountriesIds(countries, addresses) {
-  addresses.map((address) => {
-    let correspondCountry = countries.find((country) => {
-      return country.name === address.country;
-    });
-    address.countryId = correspondCountry._id;
-    return address;
-  });
-}
-
-// function connectAddressesIds(addresses, users) {}
 
 /*
   having mutual column between two tables 

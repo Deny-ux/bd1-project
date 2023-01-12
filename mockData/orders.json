@@ -1,0 +1,63 @@
+[
+  {
+    "tax": 17,
+    "shippingFee": 4,
+    "buyer": "johny.browny@gmail.com",
+    "orderItems": [
+      {
+        "amount": 1,
+        "name": "laptop"
+      }
+    ],
+    "clientSecret": "yhbj4$G2!Rdsf3",
+    "subtotal": 1000,
+    "total": 1021,
+    "status": "delivered"
+  },
+  {
+    "tax": 8,
+    "shippingFee": 14,
+    "buyer": "johny.browny@gmail.com",
+    "orderItems": [
+      {
+        "amount": 2,
+        "name": "laptop"
+      }
+    ],
+    "clientSecret": "yhbj4$G2ef4!Rdsf3",
+    "subtotal": 2000,
+    "total": 2022,
+    "status": "canceled"
+  },
+  {
+    "tax": 7,
+    "shippingFee": 6,
+    "buyer": "Jan.kowalski@gmail.com",
+    "orderItems": [
+      {
+        "amount": 2,
+        "name": "just a book"
+      }
+    ],
+    "clientSecret": "h7fc@#D3sa",
+    "subtotal": 38,
+    "total": 51,
+    "status": "delivered"
+  },
+
+  {
+    "tax": 5,
+    "shippingFee": 14,
+    "buyer": "denys.foka@gmail.com",
+    "orderItems": [
+      {
+        "amount": 1,
+        "name": "Teddy"
+      }
+    ],
+    "clientSecret": "yhbf$F32j4$G2!Rdsf3",
+    "subtotal": 10,
+    "total": 29,
+    "status": "paid"
+  }
+]
